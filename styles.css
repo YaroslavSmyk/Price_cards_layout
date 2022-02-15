@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  font-family: "Montserrat";
+  width: 100%;
+  height: 100vh;
+  background-color: #141b1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-card__title {
+  font-size: 35px;
+  line-height: 43px;
+  font-weight: 700;
+  width: 380px;
+  height: 770px;
+  background: #334247;
+  margin-left: 18px;
+}
+
+.price-card__title-container {
+  width: 100px;
+  height: 64px;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 33px;
+  margin-left: 140px;
+}
+
+.price-card__price_green {
+  background: #5bb189;
+}
+
+.price-card__price_blue {
+  background: #3a6ba5;
+}
+
+.price-card__price-orange {
+  background: #ec632a;
+}
+
+.price-card__price {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 160px;
+  height: 67px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price-card__description {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.price-card__options-list {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  width: 300px;
+  height: 18px;
+}
+
+.price-card__order-btn {
+  width: 154, 63px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */
