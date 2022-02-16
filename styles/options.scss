@@ -1,0 +1,29 @@
+.options {
+  width: 380px;
+  height: 300px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.options-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  :nth-child(odd) {
+    background: rgba(42, 52, 56, 1);
+  }
+
+  &__item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.checkmark {
+  margin: 0 22px;
+}
